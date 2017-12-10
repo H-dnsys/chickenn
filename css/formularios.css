@@ -1,0 +1,62 @@
+
+#form{
+	width: 550px;
+	margin: auto;
+	background:rgba(45,5,4,0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+
+}
+
+#contacto{
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+
+}
+#correo,textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border:none;
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+
+	max-width: 100%;
+	min-width: 100%;
+}
+
+#boton,#boton1{
+	position: relative;
+	background:#31384A;
+	color: #fff;
+	width: 24%;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 10PX;
+	margin: 10px;
+	left: 35%;
+	transform: translateX(-50%);
+}
+#boton:hover{
+	cursor: pointer;
+}
+@media(max-width: 480px){
+ #form{
+ 	width: 100%;
+ }
+}
+
+
+
+
+
+
